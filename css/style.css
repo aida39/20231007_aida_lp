@@ -72,7 +72,7 @@
     margin: 5px 0;
 }
 .news{
-    width: 60%;
+    width: 53%;
     margin: 40px auto;
 }
 
@@ -87,9 +87,6 @@
     font-size: 20px;
     margin: 10px 0 30px;
 }
-.news{
-    width: 45%;
-}
 .news-box{
     border-top: 2px solid #d6d6d6;
     border-bottom: 2px solid #d6d6d6;
@@ -100,6 +97,7 @@
     padding: 10px 0;
     border-bottom: 1px solid #d6d6d6;
     list-style-type: none;
+    display: flex;
 }
 .news-box__content p{
     display: inline-block;
@@ -110,7 +108,7 @@
 .news-box__content p:nth-child(2){
     background-color: #b31667;
     color: white;
-    padding: 3px 15px;
+    padding: 3px 20px;
     border-radius: 15px;
 }
 .about{
@@ -203,7 +201,7 @@
     justify-content: space-between;
 }
 .blog-box_card {
-    width: 25%;
+    width: 30%;
     position: relative;
     border-radius: 0 0 10px 10px;
     background-color: white;
